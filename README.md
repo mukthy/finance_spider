@@ -6,7 +6,7 @@ If you have list of stocks which you want to monitor continously you can write a
 
 To avoid abusive usage of the API I have removed the URL's and stored it away in a .env file.
 
-This API has an endpoit /stock_price/{symbol} which accepts the symbol as a parameter and returns the data. Sometimes the Symbol is not updated at the provider end, at that time it will return with the scrip number by getting it from BSE which you can feed it again to the API.
+This API has an endpoit `/stock_price/{symbol}` which accepts the symbol as a parameter and returns the data. Sometimes the Symbol is not updated at the provider end, at that time it will return with the scrip number by getting it from BSE which you can feed it again to the API.
 
 Sample Data:
 
